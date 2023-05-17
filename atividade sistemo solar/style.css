@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(./img/depositphotos_4806341-stock-photo-colorful-stars-in-the-night.jpg);
+}
+
+.titulo{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: 25px;
+
+}
+
+
+.logo{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+.logoimg{
+    width: 100px;
+    height: 100px;
+}
+    
+main{
+    margin-top: 70px;
+}
+section{
+    margin-top: 100px;
+}
+
+img{
+    width: 400px;
+    height: 350px;
+}
+
+@media (max-width: 900px) { 
+    header{
+        display: none;
+    }
+    main{
+        margin-top: 10px;
+    }
+    section{
+        margin-top: 0px;
+        display: flex;
+        flex-direction: column;
+    }
+
+
+}
